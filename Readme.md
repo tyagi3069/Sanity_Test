@@ -12,15 +12,15 @@ ANALYSIS
 
 This was a multiclass classification problem. 
 
-We founded the correlation matrix in this problem statement and concluded that output was dependent on all the attributes.
+First correlation matrix is found and that lead to a conclusion of output being dependent on all the attributes.
 
-Some attributes in the dataset were given as english texts so, in order to train our machine learning model we vectorized all of the attributes. Here we used NLP for the process of vectorization.
+Some attributes in the dataset were given as english texts so, in order to train our machine learning model so I vectorized all of the attributes. Here NLP was used for the process of vectorization.
 
 ![image](https://user-images.githubusercontent.com/99869699/232680145-55cdb0ad-25fe-4a1b-b91f-0b2aa28a673b.png)
 
-After researching deeply we choose to apply “Bag Of Words” on the attributes whose count of unique value (categories) > 20.
+After researching deeply “Bag Of Words” is applied on the attributes whose count of unique value (categories) > 20.
 
-We applies “Bag of words” on three attributes which were: 
+Attributes on which “Bag of words” was applied: 
 
 File changed
 
@@ -28,7 +28,7 @@ Component
 
 Sanity name
 
-For attributes whose count of unique value (categories) < 20, we applies “One Hot Encoding”.
+For attributes whose count of unique value (categories) < 20, “One Hot Encoding” is applied.
 
 ![image](https://user-images.githubusercontent.com/99869699/232680232-b5160296-19c7-4cef-9eb8-4cedf6352ddc.png)
 
